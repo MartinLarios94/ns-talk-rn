@@ -1,6 +1,7 @@
 import React from 'react';
 import {View, Text, StyleSheet, Image} from 'react-native';
 import {NSProps} from '../typos/types/fakeType';
+import Icon from 'react-native-vector-icons/Ionicons';
 
 interface Props {
   AvatarProps: NSProps;
@@ -13,9 +14,18 @@ const Avatar: React.FC<Props> = ({AvatarProps}) => {
       <Image style={styles.image} source={{uri: avatarUrl}} />
       <View>
         <Text style={styles.fullName}>{fullName}</Text>
-        <Text style={styles.jobTeam}>{jobTitle}</Text>
-        <Text style={styles.jobTeam}>{team}</Text>
-        <Text style={styles.country}>{country}</Text>
+        <View style={styles.wrap}>
+          <Icon name="briefcase-outline" color="grey" size={20} />
+          <Text style={styles.jobTeam}>{jobTitle}</Text>
+        </View>
+        <View style={styles.wrap}>
+          <Icon name="people-outline" color="grey" size={20} />
+          <Text style={styles.jobTeam}>{team}</Text>
+        </View>
+        <View style={styles.wrap}>
+          <Icon name="location-outline" color="grey" size={20} />
+          <Text style={styles.country}>{country}</Text>
+        </View>
       </View>
     </View>
   );
@@ -28,7 +38,7 @@ const styles = StyleSheet.create({
     padding: 15,
     marginBottom: 10,
     borderRadius: 20,
-    backgroundColor: 'rgba(255,255,255,0.7)',
+    backgroundColor: 'rgba(255,255,255,0.5)',
     shadowOpacity: 0.3,
     shadowRadius: 20,
   },
@@ -46,12 +56,19 @@ const styles = StyleSheet.create({
   jobTeam: {
     fontSize: 14,
     opacity: 0.7,
-    width: 200,
+    width: 220,
+    paddingLeft: 5,
   },
   country: {
-    fontSize: 12,
+    fontSize: 14,
     opacity: 0.8,
     color: '#0099cc',
+    paddingLeft: 5,
+  },
+  wrap: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    padding: 2,
   },
 });
 

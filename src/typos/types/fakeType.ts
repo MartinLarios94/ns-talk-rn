@@ -6,11 +6,15 @@ export type NSProps = {
     | 'Technical Project Manager'
     | 'QA Engineer'
     | 'Team Lead'
+    | 'Team Manager'
     | 'UI/UX Designer'
     | 'Chief Technology Officer'
     | 'Lead Tech Recruiter and Marketing Manager'
     | 'VP of Engineering'
-    | 'Managing Director';
+    | 'Managing Director'
+    | 'Recruitment and Marketing Assistant'
+    | 'Salesforce Administrator'
+    | 'Coworking Manager';
   avatarUrl: string;
   team:
     | 'Project Managers'
@@ -28,6 +32,16 @@ export type NSProps = {
     | 'iFIT'
     | 'Nicasource'
     | 'Leadership'
-    | 'WWB';
-  country: 'Argentina' | 'Nicaragua' | 'Mexico' | 'Brasil' | 'United States';
+    | 'WWB'
+    | 'Upstament'
+    | 'iHeart Media'
+    | 'IVL Collective';
+  country:
+    | 'Argentina'
+    | 'Nicaragua'
+    | 'Mexico'
+    | 'Brasil'
+    | 'United States'
+    | 'Dominican Republic';
+  departament: 'Engineering' | 'Design' | 'Project Managers' | 'Administration';
 };
