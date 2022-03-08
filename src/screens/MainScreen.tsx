@@ -5,8 +5,6 @@ import {DataFiltered} from '../context/db';
 
 const MainScreen = () => {
   const getEmployees = DataFiltered('', '');
-  //   const getDepartaments = DataFiltered('departament', 'Engineering');
-  //   const getTeams = DataFiltered('team', 'Noble');
 
   return (
     <ImageBackground
@@ -22,12 +20,28 @@ const MainScreen = () => {
           }}
           data={getEmployees}
         />
+        {/* <CardMain
+          Title="Filtered Employees"
+          Screen="Filter"
+          Image={{
+            uri: 'https://media-exp1.licdn.com/dms/image/C561BAQG2_kywxM9I3A/company-background_10000/0/1619825388099?e=2159024400&v=beta&t=QVRNvXwHl0oRsCurPxa_LZF2XAwqRVWDUcM-Xmu7dkY',
+          }}
+          data={getEmployees}
+        /> */}
       </View>
     </ImageBackground>
   );
 };
 
 const mainStyles = StyleSheet.create({
+  shape: {
+    justifyContent: 'center',
+    height: 250,
+    width: 250,
+    borderRadius: 25,
+    marginRight: 10,
+    backgroundColor: 'white',
+  },
   container: {
     flex: 1,
     justifyContent: 'center',

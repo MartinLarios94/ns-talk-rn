@@ -12,10 +12,11 @@ const EmployeesList: React.FC<Props> = ({data}) => {
     <View style={styles.container}>
       <Image
         source={{
-          uri: 'https://media-exp1.licdn.com/dms/image/C4E0BAQHSr1Nmk8lTeQ/company-logo_200_200/0/1638462332651?e=2159024400&v=beta&t=JU3VI6_9C39KjSuVW2E4CkfN8GaeujxNYSCrIxJJDmY',
+          uri: 'https://c.smartrecruiters.com/sr-company-logo-prod-dc5/5c00dcdedc0e820006416c2d/huge?r=s3-eu-central-1&_1620085301166',
         }}
         style={StyleSheet.absoluteFillObject}
-        blurRadius={5}
+        blurRadius={7}
+        resizeMode="cover"
       />
       <FlatList
         data={data}

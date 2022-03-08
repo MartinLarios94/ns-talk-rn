@@ -11,7 +11,7 @@ import {NSProps} from '../typos/types/fakeType';
 
 interface Props {
   Title: string;
-  Screen: 'Employees';
+  Screen: 'Employees' | 'Filter';
   Image: ImageSourcePropType;
   data: NSProps[];
 }
@@ -20,6 +20,7 @@ const CardMain: React.FC<Props> = ({Title, Screen, Image, data}) => {
   const {navigate} = useNavigation();
   return (
     <TouchableOpacity
+      style={mainStyles.container}
       activeOpacity={0.8}
       onPress={() => navigate(Screen, data)}>
       <ImageBackground
@@ -27,7 +28,7 @@ const CardMain: React.FC<Props> = ({Title, Screen, Image, data}) => {
           ...mainStyles.imageContainer,
           width: 350,
         }}
-        resizeMode="stretch"
+        resizeMode="cover"
         imageStyle={mainStyles.image}
         source={Image}>
         <Text style={mainStyles.text}>{Title}</Text>
@@ -37,6 +38,9 @@ const CardMain: React.FC<Props> = ({Title, Screen, Image, data}) => {
 };
 
 const mainStyles = StyleSheet.create({
+  container: {
+    paddingBottom: 20,
+  },
   imageContainer: {
     borderRadius: 10,
     height: 200,
