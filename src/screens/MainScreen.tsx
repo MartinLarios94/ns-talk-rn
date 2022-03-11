@@ -20,14 +20,14 @@ const MainScreen = () => {
           }}
           data={getEmployees}
         />
-        {/* <CardMain
+        <CardMain
           Title="Filtered Employees"
           Screen="Filter"
           Image={{
             uri: 'https://media-exp1.licdn.com/dms/image/C561BAQG2_kywxM9I3A/company-background_10000/0/1619825388099?e=2159024400&v=beta&t=QVRNvXwHl0oRsCurPxa_LZF2XAwqRVWDUcM-Xmu7dkY',
           }}
           data={getEmployees}
-        /> */}
+        />
       </View>
     </ImageBackground>
   );

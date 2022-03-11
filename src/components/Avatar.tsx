@@ -2,7 +2,7 @@ import React from 'react';
 import {View, Text, StyleSheet, Image} from 'react-native';
 import {NSProps} from '../typos/types/fakeType';
 import Icon from 'react-native-vector-icons/Ionicons';
-// import {MotiView} from 'moti';
+import {MotiView} from 'moti';
 
 interface Props {
   AvatarProps: NSProps;
@@ -11,17 +11,17 @@ interface Props {
 const Avatar: React.FC<Props> = ({AvatarProps}) => {
   const {avatarUrl, country, fullName, jobTitle, team} = AvatarProps;
   return (
-    <View
-      // delay={200}
-      // from={{
-      //   opacity: 0,
-      //   transform: [{scale: 0}],
-      // }}
-      // animate={{
-      //   opacity: 1,
-      //   transform: [{scale: 1}],
-      // }}
-      // transition={{type: 'timing'}}
+    <MotiView
+      delay={500}
+      from={{
+        opacity: 0,
+        transform: [{scale: 0}],
+      }}
+      animate={{
+        opacity: 1,
+        transform: [{scale: 1}],
+      }}
+      transition={{type: 'timing'}}
       style={styles.container}>
       <Image style={styles.image} source={{uri: avatarUrl}} />
       <View>
@@ -39,7 +39,7 @@ const Avatar: React.FC<Props> = ({AvatarProps}) => {
           <Text style={styles.country}>{country}</Text>
         </View>
       </View>
-    </View>
+    </MotiView>
   );
 };
 

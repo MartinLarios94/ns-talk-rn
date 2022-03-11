@@ -500,6 +500,16 @@ export const NICA_SOURCE_DB: NSProps[] = [
     departament: 'Engineering',
   },
   {
+    id: 51,
+    fullName: 'Nacho Padilla',
+    jobTitle: 'Software Engineer',
+    avatarUrl:
+      'https://images7.bamboohr.com/393440/photos/197-0-4.jpg?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9pbWFnZXM3LmJhbWJvb2hyLmNvbS8zOTM0NDAvKiIsIkNvbmRpdGlvbiI6eyJEYXRlR3JlYXRlclRoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTY0NzAwNzU3NX0sIkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNjQ5NTk5NTg1fX19XX0_&Signature=KB-mX2mvEDNY1QLwwCsLAYkx-Glus2fCZkWLuLedW3wkCmbYn0~yp5Kild1hPZuEHEHV~oiXpo1v3hOACCUwzcUzmSMYX6sM4y6qxRsDP~oNLlGrEsTZKFOwpHAVKVsJhSdebksLCLVG0b5KBW7IlaFEM5aWnETZtrMnNqlxUH1X6TdA7Dm3sovv13wIwAPiHUs-165gCV2toOc96lcaV341C6XnoPxnhXUcH0fa4EgIiz3leWDDgaw1lXzWrHALO~qW7In11-mXJcIGjZF6jdO4aFqlOe-0LBJl9dDddst6kzYhMtk~m-QZyUVYyaja9dDY9rk1v6j6I--1IzGhcw__&Key-Pair-Id=APKAIZ7QQNDH4DJY7K4Q',
+    team: 'Small & Simple',
+    country: 'Argentina',
+    departament: 'Engineering',
+  },
+  {
     id: 52,
     fullName: 'Luis Noguera',
     jobTitle: 'Software Engineer',
@@ -775,6 +785,16 @@ export const NICA_SOURCE_DB: NSProps[] = [
     avatarUrl:
       'https://images7.bamboohr.com/393440/photos/129-1-4.jpg?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9pbWFnZXM3LmJhbWJvb2hyLmNvbS8zOTM0NDAvKiIsIkNvbmRpdGlvbiI6eyJEYXRlR3JlYXRlclRoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTY0NjY2MjExNH0sIkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNjQ5MjU0MTI0fX19XX0_&Signature=V6BSUg2EKCXVXxgc23zxa8-1PpvOyOgKHa6cTe~AHmBJGlKCqH1HHw6ORfPEXmSi4MpHf1BjKi2wrCCB9yl8uaoVX1vwjYtqUElEbvjJhEw~uFmRJQ357XKYYuiKB4Xvgo0B2cz2j0TcaYO2T3GtRIMFd3QNkAqW~qmYAj90JBJPBtTom1XF~KFNWJGpo1R1a3GXbdZyACEAK-STUWQYEt1AGhvN8tqZGCu6ZF-gajo-D6Wxtmqc~lVwtiUPcpX2R3VyijC-Dd78kKRwTdmZuzei2ouCnA-5KKTzTDaD5AhNKKtrB4oGOOnN6~uakLMAnMjWvZFF43XtDn3LjKpZGg__&Key-Pair-Id=APKAIZ7QQNDH4DJY7K4Q',
     team: 'Noble',
+    country: 'Nicaragua',
+    departament: 'Engineering',
+  },
+  {
+    id: 80,
+    fullName: 'Marvin Obando',
+    jobTitle: 'QA Engineer',
+    avatarUrl:
+      'https://images7.bamboohr.com/393440/photos/191-0-4.jpg?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9pbWFnZXM3LmJhbWJvb2hyLmNvbS8zOTM0NDAvKiIsIkNvbmRpdGlvbiI6eyJEYXRlR3JlYXRlclRoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTY0NzAwNzU3NX0sIkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNjQ5NTk5NTg1fX19XX0_&Signature=KB-mX2mvEDNY1QLwwCsLAYkx-Glus2fCZkWLuLedW3wkCmbYn0~yp5Kild1hPZuEHEHV~oiXpo1v3hOACCUwzcUzmSMYX6sM4y6qxRsDP~oNLlGrEsTZKFOwpHAVKVsJhSdebksLCLVG0b5KBW7IlaFEM5aWnETZtrMnNqlxUH1X6TdA7Dm3sovv13wIwAPiHUs-165gCV2toOc96lcaV341C6XnoPxnhXUcH0fa4EgIiz3leWDDgaw1lXzWrHALO~qW7In11-mXJcIGjZF6jdO4aFqlOe-0LBJl9dDddst6kzYhMtk~m-QZyUVYyaja9dDY9rk1v6j6I--1IzGhcw__&Key-Pair-Id=APKAIZ7QQNDH4DJY7K4Q',
+    team: 'Scalar',
     country: 'Nicaragua',
     departament: 'Engineering',
   },

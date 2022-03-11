@@ -4,7 +4,7 @@ import {NSProps} from '../typos/types/fakeType';
 import Avatar from './Avatar';
 
 interface Props {
-  data: readonly NSProps[];
+  data: NSProps[];
 }
 
 const EmployeesList: React.FC<Props> = ({data}) => {
